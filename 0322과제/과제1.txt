@@ -1,0 +1,12 @@
+create table bookinfo_tbl (
+도서코드 number(4) not null primary key,
+작가 char(20),
+이름 char(20)
+);
+
+insert into bookinfo_tbl (도서코드, 작가, 이름) values (101, '박작가', '시스템분석');
+insert into bookinfo_tbl (도서코드, 작가, 이름) values (102, '김작가', '전산개론');
+insert into bookinfo_tbl (도서코드, 작가, 이름) values (103, '이작가', '마케팅개론');
+insert into bookinfo_tbl (도서코드, 작가, 이름) values (105, '황작가', '사회학');
+insert into bookinfo_tbl (도서코드, 작가, 이름) values (201, '최작가', '역사학');
+insert into bookinfo_tbl (도서코드, 작가, 이름) values (301, '오작가', '전산영어');
