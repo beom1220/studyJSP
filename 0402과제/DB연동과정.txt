@@ -1,0 +1,13 @@
+1. 오라클 DB 설치
+
+2. C:\studyJSP\oracle\homes\OraDB21Home1\network\admin에 있는 listener.ora와 tnsnames.ora의  HOST는 그대로 localhost로 두었음.
+
+3. 환경변수 설정. ORACLE_HOME과 TNS_ADMIN을 새로 만들어서 Path에 추가해주었음.
+ORACLE_HOME은 C:\studyJSP\oracle\homes\OraDB21Home1
+TNS_ADMIN은 C:\studyJSP\oracle\homes\OraDB21Home1\network\admin\tnsnames.ora
+
+4. 프로젝트 파일의 lib 파일에 jdbc 복사
+
+5. SQL PLUS에서 데이터 입력 및 commit
+
+6. 이후에는 코드와 같음.
